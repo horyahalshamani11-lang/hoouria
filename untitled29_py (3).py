@@ -17,6 +17,7 @@ with open('model.pkl(2)', 'rb') as f:
     model = p.load(f)
 
 st.title("TRAFFIC LEVEL PREDICTION")
+st.image("cropped_circle_image.png")
 
 nei=st.selectbox("Choose the neighborhood",["Al-Aziziyah", "Al-Khaldiyah", "Al-Shahba", "Al-Mabuth", "King Fahd", "Qurban", "Al-Rawabi", "Al-Anabis", "Quba", "Al-Arid", "Al‑Difa’a","Al‑Rannāna", "Railway", "Fort of Mukhayṭ, Muḍaynīb", "Shawrān", "Al‑Salām", "Airport Neighbourhood", "Al‑Nublā", "Al‑Bullā", "Wurqān", "Tībah", "Al‑Shahbā’", "Al‑Sakb"
 , "Al-Iskān", "Al‑Sadd", "Mahzūr", "Al‑Barakah", "Bani Bayāḍah", "Khakh", "Hathm", "Abū Kabīr", "Al‑Zahrah", "Bir ʿUthmān", "Al‑Duwaiḫlah", "Al‑Hadhrā", "Al‑Jābirah", "Al‑Ghabāh (The Forest)", "ʿAyn Al‑Khayf", "Al‑Qaswā’", "Al‑Rummānah", "Al‑Gharā’", "Bani Hārithah", "Shaẓāh", "Central District", "Al‑ʿAnābis", "Al‑Nakheel", "Bani Ẓafar", "Al‑Fath", "University Neighbourhood", "Bani Muʿāwiyah", "Al‑Usayfīrīn", "Al‑Ẓāhirah", "Al‑Jamāwāt", "Al‑Mughaysilah", "Katānah", "Al‑Naqus", "Abu Buriqā’", "Al‑Qiblatayn", "Al‑Dirʿ Mosque Neighbourhood", "Al‑Dawīmah", "Jabal Jummah & Ghurābah", "Al‑Rayāh", "Industrial / Factories Neighbourhood", "Raḥṭ", "Al‑Khātim", "Bani ʿAbd al-Ashhal", "Al‑Ṣādiqiyah", "Al‑ʿUyūn (The Springs)", "Sayyid al‑Shuhadāʾ", "Waʿīrah", "Al‑Jaṣṣah", "Al‑Siqyā’", "Dhū al‑Ḥalīfah", "Al‑ʿIhn", "Al‑Wubrah", "Al‑ʿUsbah", "Al‑Sīḥ", "Al‑Dār", "ʿUrwah", "Umm Khalid", "Mount Uhud / Jabal Uhud", "Jabal ʿIr", "The Garden Neighbourhood"])
